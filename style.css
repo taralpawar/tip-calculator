@@ -1,0 +1,223 @@
+body {
+  outline: none;
+  box-sizing: border-box;
+  background-color: hsl(185, 41%, 84%);
+  padding: 3rem;
+  font-family: "Space Mono", monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px, 20px hsl(183, 100%, 15%);
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 4px;
+  color: hsl(183, 100%, 15%);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mainBox {
+  height: 50vh;
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.box1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.billTitle {
+  font-size: 15px;
+  color: hsl(186, 14%, 43%);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.billInput {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.inputText {
+  font-size: 20px;
+  color: #9ebbbd;
+  font-weight: bold;
+}
+
+.input {
+  background: none;
+  outline: none;
+  border: none;
+  text-align: right;
+  width: 100%;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  font-family: "Space mono", monospace;
+}
+
+::placeholder {
+  font-size: 20px !important;
+  color: #9ebbbd !important;
+  font-weight: bold !important;
+}
+.tipHead,
+.peopleno {
+  font-size: 15px;
+  color: hsl(186, 14%, 43%);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.peopleTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  font-size: 15px;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 0.5rem;
+}
+.tipSelect {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tipOption {
+  width: 30%;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  background-color: hsl(183, 100%, 15%);
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Space mono", monospace;
+  transition-duration: 0.4s;
+}
+
+.tipOption:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(186, 14%, 43%);
+}
+
+.tipOption:focus {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+.tipCustom {
+  height: 20px;
+  width: 25%;
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  text-align: center;
+  color: #9ebbbd;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 40%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tipTitle {
+  font-size: 15px;
+  color: white;
+}
+
+.person {
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+}
+
+.tipAmount {
+  font-size: 30px;
+  color: hsl(172, 67%, 45%);
+  font-weight: bold;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetBtn {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
